@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>On Focus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="JavaScript">
+            function autoWrite(){
+                document.forms[0].elements[0].value="Greetings earthing!";
+            }
+        </script>
+    </head>
+    <h3>Click on the text Window</h3>
+    <body bgcolor="lightgreen">
+        <form>
+            <input type=text onfocus="autoWrite();">
+        </form>
+    </body>
+</html>
